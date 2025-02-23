@@ -1,6 +1,7 @@
-import UserContext from './UserContext';
-function UserContext.Provider ({ UserContext }) {
-  return <UserContext UserContext={UserContext} />;
+import UserInfo from './UserInfo';
+function UserContext.Provider ({ userData })
+function ProfilePage({ userData }) {
+  return <UserInfo userData={userData} />;
 }
 
-export default UserContext;
+export default ProfilePage;
