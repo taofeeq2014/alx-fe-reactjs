@@ -1,3 +1,4 @@
+import ProfilePage from './components/UserContext'
 import ProfilePage from './components/ProfilePage'
 import './App.css'
 
