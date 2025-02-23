@@ -1,8 +1,9 @@
+import Counter from './components/Counter'
 import UserProfile from './components/UserProfile'
 import Header from './Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
-import WelcomeMessage from './components/WelcomeMessage
+import WelcomeMessage from './components/WelcomeMessage'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+    <Counter />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Header />
       <MainContent />  
