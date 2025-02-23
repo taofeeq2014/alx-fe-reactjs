@@ -1,3 +1,4 @@
+functyion UserContext ({ UserContext })
 function UserDetails({ userData }) {
     return (
       <div>
