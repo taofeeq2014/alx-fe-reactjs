@@ -1,3 +1,4 @@
+import RecipeStore from './component/RecipeStore'
 import RecipeList from './component/RecipeList' 
 import AddRecipeForm from './component/AddRecipeForm'
 import RecommendationsList from './component/RecommendationsList'
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+      <RecipeStore />
     <RecipeList />
     <AddRecipeForm />
     <RecommendationsList />
