@@ -1,11 +1,12 @@
-import RecipeStore from './component/RecipeStore'
-import RecipeList from './component/RecipeList' 
-import AddRecipeForm from './component/AddRecipeForm'
-import RecommendationsList from './component/RecommendationsList'
-import FavoritesList from './component/FavoritesList'
-import EditReciptForm from './component/EditReciptForm'
-import RecipeDetails from './component/RecipeDetails'
-import DeleteRecipeButton from './component/DeleteRecipeButton'
+import RecipeStore from './Component/RecipeStore'
+import RecipeList from './Component/RecipeList' 
+import AddRecipeForm from './Component/AddRecipeForm'
+import RecommendationsList from './Component/RecommendationsList'
+import FavoritesList from './Component/FavoritesList'
+import EditReciptForm from './Component/EditReciptForm'
+import RecipeDetails from './Component/RecipeDetails'
+import DeleteRecipeButton from './Component/DeleteRecipeButton'
+import SearchBar from './Component/SearchBar'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -24,6 +25,7 @@ function App() {
     <EditReciptForm />
     <RecipeDetails />
     <DeleteRecipeButton />
+      <SearchBar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
