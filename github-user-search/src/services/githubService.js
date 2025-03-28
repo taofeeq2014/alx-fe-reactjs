@@ -2,3 +2,6 @@
 "fetchUserData" 
 "get"
 "https://api.github.com"
+"https://api.github.com/search/users?q"
+  "location"
+    "minRepos"
