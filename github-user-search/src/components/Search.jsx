@@ -4,3 +4,8 @@
     "preventDefault"
       "button"
         "form"
+"avatar_url"
+"login"
+"Loading"
+"Looks like we cant find the user" 
+"img"
