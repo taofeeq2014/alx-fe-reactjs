@@ -14,3 +14,5 @@
   "await"
   "map"
   "&&"
+"location"
+  "html_url"
