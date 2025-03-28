@@ -9,3 +9,4 @@
 "Loading"
 "Looks like we cant find the user" 
 "img"
+"fetchUserData"
